@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gallery of makeup artistry, academy activities and student work at Legacy Beauty Academy.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self';">
+  <title>Gallery | Legacy Beauty Academy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+</head>
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-area">
+        <img src="images/logo.jpg" alt="Legacy Beauty Academy Logo">
+        <div class="logo-text">
+          Legacy Beauty Academy
+          <span>Professional Makeup Training</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1 class="section-title">Academy Gallery</h1>
+      <p class="section-subtitle">Makeup artistry, founder portraits, training activities and professional looks. Click any photo to enlarge.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="images/founder-portrait.jpg" alt="Elizabeth Tengbeh – Professional Portrait">
+          <div class="gallery-overlay"><span>Founder Portrait</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/founder-artist.jpg" alt="Elizabeth Tengbeh – Makeup Artist">
+          <div class="gallery-overlay"><span>In the Studio</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/founder-blazer.jpg" alt="Elizabeth Tengbeh – CEO Portrait">
+          <div class="gallery-overlay"><span>Founder & CEO</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/founder-casual.jpg" alt="Elizabeth Tengbeh – Casual Portrait">
+          <div class="gallery-overlay"><span>Behind the Scenes</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/services-menu.jpg" alt="Professional Makeup Styles Showcase">
+          <div class="gallery-overlay"><span>Makeup Styles Menu</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/certificate.jpg" alt="Certificate of Completion">
+          <div class="gallery-overlay"><span>Certificate of Completion</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/logo.jpg" alt="Legacy Beauty Academy Logo">
+          <div class="gallery-overlay"><span>LBA Official Logo</span></div>
+        </div>
+      </div>
+
+      <div class="text-center mt-2">
+        <p style="color: var(--text-muted); margin-bottom: 1rem;">More student work and event photos coming soon. Follow our activities!</p>
+        <a href="register.html" class="btn btn-primary">Join the Academy</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Gallery Modal -->
+  <div class="modal" id="gallery-modal" role="dialog" aria-modal="true" aria-label="Image preview">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <img id="modal-image" src="" alt="">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="LBA Logo">
+        <p>Legacy Beauty Academy — Professional Makeup Training & Luxury Beauty Services.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="register.html">Student Registration</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:0770220135">0770 220 135</a></li>
+          <li>Barnesville Band and Stop</li>
+          <li><a href="contact.html">Send a Message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Legacy Beauty Academy. All rights reserved.</span>
+      <span>Legacy • Beauty • Excellence • Luxury Training</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

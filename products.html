@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shop professional makeup products and kits at Legacy Beauty Academy. View prices for foundations, lipsticks, brushes and more.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self';">
+  <title>Products & Prices | Legacy Beauty Academy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+</head>
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-area">
+        <img src="images/logo.jpg" alt="Legacy Beauty Academy Logo">
+        <div class="logo-text">
+          Legacy Beauty Academy
+          <span>Professional Makeup Training</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1 class="section-title">Makeup Products & Prices</h1>
+      <p class="section-subtitle">Professional-grade products recommended for students and clients. Prices shown in USD. Contact us for local currency options and student discounts.</p>
+
+      <div class="text-center mb-2" style="display: flex; flex-wrap: wrap; gap: 0.5rem; justify-content: center;">
+        <button class="btn btn-outline active" data-filter="all" style="padding: 0.5rem 1.2rem; font-size: 0.8rem;">All</button>
+        <button class="btn btn-outline" data-filter="face" style="padding: 0.5rem 1.2rem; font-size: 0.8rem;">Face</button>
+        <button class="btn btn-outline" data-filter="eyes" style="padding: 0.5rem 1.2rem; font-size: 0.8rem;">Eyes</button>
+        <button class="btn btn-outline" data-filter="lips" style="padding: 0.5rem 1.2rem; font-size: 0.8rem;">Lips</button>
+        <button class="btn btn-outline" data-filter="tools" style="padding: 0.5rem 1.2rem; font-size: 0.8rem;">Tools & Kits</button>
+      </div>
+
+      <div class="card-grid">
+        <!-- Face -->
+        <article class="card product-card" data-category="face">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🧴</div>
+          <div class="card-body">
+            <h3>HD Foundation Kit</h3>
+            <p>Full coverage, long-wear foundation set with 6 shades + primer. Ideal for bridal & editorial work.</p>
+            <div class="product-meta">
+              <span class="price">$48.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="face">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">✨</div>
+          <div class="card-body">
+            <h3>Luxe Setting Powder</h3>
+            <p>Translucent, finely milled powder that locks makeup for 12+ hours without flashback.</p>
+            <div class="product-meta">
+              <span class="price">$22.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="face">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🌟</div>
+          <div class="card-body">
+            <h3>Contour & Highlight Palette</h3>
+            <p>6 cream + powder shades for sculpting and illuminating all skin tones.</p>
+            <div class="product-meta">
+              <span class="price">$36.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Eyes -->
+        <article class="card product-card" data-category="eyes">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">👁️</div>
+          <div class="card-body">
+            <h3>Pro Eyeshadow Palette – 18 Colors</h3>
+            <p>Matte, shimmer and metallic shades curated for bridal, glam and editorial looks.</p>
+            <div class="product-meta">
+              <span class="price">$42.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="eyes">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🖤</div>
+          <div class="card-body">
+            <h3>Waterproof Liquid Eyeliner</h3>
+            <p>Ultra-precise felt tip, smudge-proof and perfect for winged looks.</p>
+            <div class="product-meta">
+              <span class="price">$14.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="eyes">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">💫</div>
+          <div class="card-body">
+            <h3>Volume Mascara Duo</h3>
+            <p>Lengthening + volumizing formula with conditioning ingredients. Includes mini for travel.</p>
+            <div class="product-meta">
+              <span class="price">$19.00</span>
+              <span class="stock low">Low Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Lips -->
+        <article class="card product-card" data-category="lips">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">💋</div>
+          <div class="card-body">
+            <h3>Matte Liquid Lipstick Set (6)</h3>
+            <p>Highly pigmented, transfer-resistant liquid lipsticks in everyday and glam nudes & reds.</p>
+            <div class="product-meta">
+              <span class="price">$38.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="lips">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">💄</div>
+          <div class="card-body">
+            <h3>Lip Liner Pencil Pack</h3>
+            <p>6 essential shades for defining and preventing feathering. Creamy, long-wear formula.</p>
+            <div class="product-meta">
+              <span class="price">$16.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Tools -->
+        <article class="card product-card" data-category="tools">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🖌️</div>
+          <div class="card-body">
+            <h3>Professional Brush Set (12 pcs)</h3>
+            <p>Synthetic & natural hair blend for face, eyes and lips. Comes in luxury case.</p>
+            <div class="product-meta">
+              <span class="price">$65.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="tools">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🎒</div>
+          <div class="card-body">
+            <h3>Student Starter Kit</h3>
+            <p>Everything a beginner needs: foundation, powder, eyeshadow, lip, brushes & case. Student exclusive pricing.</p>
+            <div class="product-meta">
+              <span class="price">$95.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="tools">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🪞</div>
+          <div class="card-body">
+            <h3>LED Vanity Mirror</h3>
+            <p>Professional 3-color temperature LED mirror with adjustable brightness for perfect application.</p>
+            <div class="product-meta">
+              <span class="price">$78.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="card product-card" data-category="face">
+          <div class="card-img" style="background: linear-gradient(135deg, #2a2a2a, #1a1a1a); display:flex;align-items:center;justify-content:center;font-size:2.5rem;">🧴</div>
+          <div class="card-body">
+            <h3>Makeup Setting Spray</h3>
+            <p>Hydrating + long-lasting formula that keeps makeup fresh in humid conditions.</p>
+            <div class="product-meta">
+              <span class="price">$18.00</span>
+              <span class="stock">In Stock</span>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="alert alert-info show" style="margin-top: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+        <strong>Student Discount:</strong> Registered students receive 15% off all products. Present your Student ID at the academy or contact us to order.
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="LBA Logo">
+        <p>Legacy Beauty Academy — Professional Makeup Training & Luxury Beauty Services.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="register.html">Student Registration</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:0770220135">0770 220 135</a></li>
+          <li>Barnesville Band and Stop</li>
+          <li><a href="contact.html">Send a Message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Legacy Beauty Academy. All rights reserved.</span>
+      <span>Legacy • Beauty • Excellence • Luxury Training</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

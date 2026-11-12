@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Legacy Beauty Academy – Phone 0770 220 135, Barnesville Band and Stop.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self';">
+  <title>Contact Us | Legacy Beauty Academy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg">
+</head>
+<body>
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-area">
+        <img src="images/logo.jpg" alt="Legacy Beauty Academy Logo">
+        <div class="logo-text">
+          Legacy Beauty Academy
+          <span>Professional Makeup Training</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1 class="section-title">Contact Us</h1>
+      <p class="section-subtitle">We would love to hear from you. Reach out for enrollments, product orders, or private makeup bookings.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:0770220135">0770 220 135</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <div>
+              <h4>Location</h4>
+              <p>Barnesville Band and Stop</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">👤</div>
+            <div>
+              <h4>Founder & Director</h4>
+              <p>Elizabeth Tengbeh</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">🎓</div>
+            <div>
+              <h4>Services</h4>
+              <p>Professional Training • Certification • Masterclasses • Bridal & Event Makeup</p>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <img src="images/founder-casual.jpg" alt="Elizabeth Tengbeh" style="border-radius: 8px; border: 1px solid rgba(212,175,55,0.3); max-height: 280px; object-fit: cover; width: 100%;">
+          </div>
+        </div>
+
+        <div>
+          <div class="form-container" style="margin: 0;">
+            <h3 style="margin-bottom: 1.5rem; text-align: center;">Send a Message</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name" required minlength="2" placeholder="Full name">
+              </div>
+              <div class="form-group">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="email" required placeholder="you@example.com">
+              </div>
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="5" required minlength="10" placeholder="How can we help you?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+            <div class="security-note">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/></svg>
+              <span>Messages are handled securely. Do not include sensitive payment details in the form.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="LBA Logo">
+        <p>Legacy Beauty Academy — Professional Makeup Training & Luxury Beauty Services.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="register.html">Student Registration</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:0770220135">0770 220 135</a></li>
+          <li>Barnesville Band and Stop</li>
+          <li><a href="contact.html">Send a Message</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Legacy Beauty Academy. All rights reserved.</span>
+      <span>Legacy • Beauty • Excellence • Luxury Training</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
